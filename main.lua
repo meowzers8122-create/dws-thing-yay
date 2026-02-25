@@ -1,3 +1,9 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+task.wait(0.5)
+
 --------------------------------------------------
 -- Load Rayfield
 --------------------------------------------------
